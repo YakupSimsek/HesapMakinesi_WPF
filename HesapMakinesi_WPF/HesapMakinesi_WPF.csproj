@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Question-Mark-PNG-Pic.png" />
+    <None Remove="tengen.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Question-Mark-PNG-Pic.png" />
+    <Resource Include="tengen.jpg" />
+  </ItemGroup>
+
+</Project>
